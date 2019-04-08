@@ -73,9 +73,9 @@ $(host) docker run --runtime=nvidia -it \
         --name happy_go  \
         mpkuse/kusevisionkit:vins-kidnap bash
 $(host) rviz # inside rviz open config cerebro/config/good-viz.rviz. If you open rviz in a new tab you might need to do set ROS_HOSTNAME again.
-$(docker) roslaunch mynteye_vinsfusion.launch
+$(docker) roslaunch cerebro mynteye_vinsfusion.launch
             OR
-$(docker) roslaunch euroc_vinsfusion.launch
+$(docker) roslaunch cerebro euroc_vinsfusion.launch
 $(host) rosbag play 1.bag
 ```
 
