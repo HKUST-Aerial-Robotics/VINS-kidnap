@@ -11,6 +11,8 @@ for reliable pose computation.
 This is a multi-threaded object oriented implementation and I observe a CPU load factor
 of about 2.0. A separate node handles pose graph solver (it is in [github-repo](https://github.com/mpkuse/solve_keyframe_pose_graph) ).
 
+**Manuscript**: 
+
 
 ## Highlight Video
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/lDzDHZkInos/0.jpg)](http://www.youtube.com/watch?v=lDzDHZkInos "Video Title")
@@ -102,7 +104,7 @@ your ROS works correctly.
 - [Theia-sfm](http://theia-sfm.org/)
 
 
-### Get VINS-Fusion Working
+### Get VINS-Fusion Working [GIT](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion.git)
 I recommend you use my fork of VINS-Fusion, in which I have fixed some bugs
 and added mechanism for reseting the VINS.
 ```
@@ -119,7 +121,7 @@ for the latest information on prerequisites and compilation instructions.
 For compatibility I recommend using my fork of vins-mono/vins-fusion. Some minor
 modifications have been made by me for working with kidnap cases.
 
-### Cerebro
+### Cerebro [GIT](https://github.com/mpkuse/cerebro)
 ```
 cd catkin_ws/src/
 git clone https://github.com/mpkuse/cerebro
@@ -146,12 +148,13 @@ If you wish to train your own model, you may use  [my learning code here](https:
 - *viz_th* : Publishes the image-pair, and more things for debugging and analysis.
 
 
-### Pose Graph Solver
+### Pose Graph Solver [GIT](https://github.com/mpkuse/solve_keyframe_pose_graph)
 Use my pose graph solver, [github-repo](https://github.com/mpkuse/solve_keyframe_pose_graph).
 The differences between this implementation and the
-original from VINS-Fusion is that mine can handle kidnap cases,
+original from VINS-Fusion is that this can handle kidnap cases,
 handles multiple world co-ordinate frames and it
 uses a switch-constraint formulation of the pose-graph problem.
+It uses the disjoint set forest to maintain a set association of world co-ordinate systems. 
 ```
 cd catkin_ws/src/
 git clone https://github.com/mpkuse/solve_keyframe_pose_graph
