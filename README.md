@@ -18,6 +18,8 @@ Preprint : [https://arxiv.org/abs/1904.06962](https://arxiv.org/abs/1904.06962)
 ## Highlight Video
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/lDzDHZkInos/0.jpg)](http://www.youtube.com/watch?v=lDzDHZkInos "Video Title")
 
+Alternate link to highlight video: 
+[Dailymotion](https://www.dailymotion.com/video/x78chs4)
 
 ## MyntEye Demo (Using VINS-Fusion as Odometry Estimator)
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/3YQF4_v7AEg/0.jpg)](http://www.youtube.com/watch?v=3YQF4_v7AEg "Video Title")
