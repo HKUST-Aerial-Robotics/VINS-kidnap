@@ -105,6 +105,7 @@ your ROS works correctly.
 - Ceres
 - OpenCV3 (should also work with 2.4 (not tested), 3.3 and 3.4)
 - [Theia-sfm](http://theia-sfm.org/)
+      - [OpenImageIO](https://github.com/OpenImageIO/oiio). tested with version Release-1.7.6RC1
 
 
 ### Get VINS-Fusion Working [GIT](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion.git)
