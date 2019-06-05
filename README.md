@@ -11,6 +11,9 @@ for reliable pose computation.
 This is a multi-threaded object oriented implementation and I observe a CPU load factor
 of about 2.0. A separate node handles pose graph solver (it is in [github-repo](https://github.com/mpkuse/solve_keyframe_pose_graph) ).
 
+
+**A MORE UPTO DATE README IS AVAILABLE IN THE ORIGINAL REPO ([mpkuse/cerebro](https://github.com/mpkuse/cerebro) )**
+
 **Manuscript**: 
 Preprint : [https://arxiv.org/abs/1904.06962](https://arxiv.org/abs/1904.06962)
 
