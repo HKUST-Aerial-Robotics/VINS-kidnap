@@ -24,6 +24,23 @@ Preprint : [https://arxiv.org/abs/1904.06962](https://arxiv.org/abs/1904.06962)
 Alternate link to highlight video: 
 [Dailymotion](https://www.dailymotion.com/video/x78chs4)
 
+
+## AR Demo Under Kidnap. 
+We show our system's performance for AR tasks under kidnap. We are able to track and relocalize despite long kidnaps. 
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/HL7Nk-fBNqM/0.jpg)](http://www.youtube.com/watch?v=HL7Nk-fBNqM "Video Title")
+
+
+## Save Map to Disk and Relocalize from Loaded Map (Teach-Repeat)
+Our system is able to save the constructed map to disk. It is also able to load a previously stored map and relocalize live and in realtime from that map. We demo the effect of relocalization from map with [our group's SurfelMapping code](https://github.com/HKUST-Aerial-Robotics/DenseSurfelMapping)
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/OViEEB3rINo/0.jpg)](http://www.youtube.com/watch?v=OViEEB3rINo "Video Title")
+
+
+
+
+-------
+
+
 ## MyntEye Demo (Using VINS-Fusion as Odometry Estimator)
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/3YQF4_v7AEg/0.jpg)](http://www.youtube.com/watch?v=3YQF4_v7AEg "Video Title")
 
