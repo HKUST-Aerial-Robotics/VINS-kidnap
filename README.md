@@ -194,6 +194,14 @@ catkin_make
 - *th5* : Display image to visualize disjoint set datastructure.
 - *th6* : Publish corrected poses, Different color for nodes in different co-ordinate systems.
 
+### AR Demo [GIT](https://github.com/mpkuse/ar_demo)
+To make ar_demo similar to my video above you could use this package. It takes the corrected pose from the pose graph solver (along with the worldID) and renders a polygonal mesh on the camera-image. It also have support for ground plane estimation, checkout the readme of that package. 
+```
+cd catkin_ws/src
+git clone https://github.com/mpkuse/ar_demo
+cd ../
+catkin_make
+```
 
 ### vins_mono_debug_pkg (optional, needed only if you wish to debug vins-mono/vins-fusion)
 With cerebro node it is possible to live run the vins and make it log all the
